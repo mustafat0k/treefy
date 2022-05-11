@@ -5,11 +5,15 @@ The library can basically parse browser bookmarks and folder hieararchy
 - Advanced array formats
 
 ![](screenshoot.png)
-![](scr1.png)
-![](scr2.png)
 
 ## Installation
 `npm i mustaft0k/treefy`
 
 ## Documentation
+
+
+## Examples
+- [Nested](https://github.com/mustafat0k/treefy/tree/main/examples/nested)
+- [Chrome Export](https://github.com/mustafat0k/treefy/tree/main/examples/chrome-export)
+- [Xml2Json](https://github.com/mustafat0k/treefy/tree/main/examples/xml2json)
 
