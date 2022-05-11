@@ -5,20 +5,39 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-   "test": "jest --config jestconfig.json",
-   "build": "tsc",
-   "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-   "lint": "tslint -p tsconfig.json",
-   "prepare": "npm run build",
-   "prepublishOnly": "npm test && npm run lint",
-   "preversion": "npm run lint",
-   "version": "npm run format && git add -A src",
-   "postversion": "git push && git push --tags"
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
-  "keywords": ["recursive", "traversal", "linked list", "tree view", "binary tree", "nested", "lexicographically", "reordering sequence", "BFS", "DFS"],
+  "keywords": [
+    "recursive",
+    "traversal",
+    "linked list",
+    "tree view",
+    "binary tree",
+    "nested",
+    "ranking",
+    "array",
+    "lexicographic",
+    "reordering sequence",
+    "folders",
+    "hierarchy",
+    "parser",
+    "covert",
+    "treeify",
+    "BFS",
+    "DFS"
+  ],
   "author": "Mustafa Tok",
   "license": "MIT",
   "devDependencies": {
+    "@babel/parser": "^7.17.10",
     "@types/jest": "^27.5.0",
     "jest": "^28.1.0",
     "prettier": "^2.6.2",
@@ -27,5 +46,11 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.6.4"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "immer": "^9.0.12"
+  }
 }

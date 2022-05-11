@@ -1,1 +1,1 @@
-export declare const Treefy: (name: string) => string;
+export declare const Treefy: () => void;

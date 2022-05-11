@@ -1,0 +1,16 @@
+{
+  "name": "treefy-nested",
+  "version": "1.0.0",
+  "description": "Nested loop folder hierarchy",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nested","folders","hierarchy","parser"],
+  "author": "Mustafa Tok",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
