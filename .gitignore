@@ -1,3 +1,4 @@
 /node_modules
 /examples/nested/node_modules
 /lib
+./package.lock.json
